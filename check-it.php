@@ -13,8 +13,8 @@ require _dir . '/checks.view.class.php';
 * Plugin URI: https://github.com/ivolivares/wp-check-it
 * Description: [CHECK-IT] A plugin that defines flags behind the wp-pages.
 * Version: 1.0
-* Author: Mediastream
-* Author URI: http://www.mediastre.am
+* Author: Iván Olivares R.
+* Author URI: http://www.ivolivares.cl
 *
 **/
 
