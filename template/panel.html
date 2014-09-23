@@ -1,0 +1,18 @@
+﻿<div class="wrap">
+	<h1>Añadir nuevo Check</h1>
+
+	<?=($error!="" ? '<div class="error" style="margin-bottom:20px;padding:10px;">'.$error.'</div>' : '')?>
+	<?=($ok!="" ? '<div class="updated" style="margin-bottom:20px;padding:10px;">'.$ok.'</div>': '')?>
+
+ 	<form method="post" action="" autocomplet="on">
+		<div class="stuffbox">
+			
+			<div class="inside" style="padding-top:20px;">
+				<input type='text' id='posicion_name' class="focus" size="30" tabindex="1" maxlength="50" name='posicion_name' placeholder="Ingrese un nombre" required style="width:100%;margin-bottom: 10px;" value="<?=$_POST['posicion_name']?>" />
+				<br>
+				<label for="posicion_check" accesskey="c">¿Está disponible? &nbsp; &nbsp;<input type='checkbox' id='posicion_check' name='posicion_check' value="1" checked placeholder="Ingrese un nombre"/></label>
+			</div>
+		</div>
+		<input type="submit" class="button-primary" name='new_position' value='Guardar' />
+	</form>
+</div>

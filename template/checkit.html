@@ -1,0 +1,9 @@
+<div class="wrap">        
+    <h2>Checks <a href="?page=checkit-add" class="add-new-h2">Añadir nuevo</a></h2>
+   
+    <form id="checks-filter" method="get">
+        <input type="hidden" name="page" value="<?php echo $_REQUEST['page'] ?>" />
+        <?php $ListTable->display() ?>
+    </form>
+    
+</div>
