@@ -31,7 +31,6 @@ class activation_Checkit
      	global $wpdb;
 		$wpdb->show_errors = true;
 		$table_name = $wpdb->prefix . "checkit";
-		$sql = "DROP TABLE IF EXISTS $table_name";
-		var_dump($wpdb->query($sql));
+		$wpdb->query("DROP TABLE IF EXISTS $table_name");
      }
 }
