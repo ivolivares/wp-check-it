@@ -42,4 +42,3 @@ if(function_exists('add_filter'))
 // Activation
 register_activation_hook( __FILE__, array( 'activation_Checkit', 'install' ) );
 register_deactivation_hook( __FILE__, array( 'activation_Checkit', 'uninstall' ) );
-//add_action('deactivate_check-it/check-it.php', array( 'activation_Checkit', 'uninstall' ) );
