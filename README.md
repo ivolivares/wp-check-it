@@ -4,9 +4,15 @@ wp-check-it
 [CHECK-IT] A plugin that defines flags behind the wp-pages.
 
 
-## How to install:
+## How to install
 
 To install the plugin on your wordpress platform see: [Managing Plugins on Wordpress Codex](http://codex.wordpress.org/Managing_Plugins)
+
+## How to use
+
+To use the plugin, after install includes this code wherever you need Check some flag on wp-pages.
+
+`if(apply_filters('checkit', 'name_to_check') == true) // do something`
 
 ## LICENSE
 
